@@ -1,0 +1,65 @@
+.bg-img {
+	background-image: url('../IMG/foto1.jpg');
+}
+.white-border-image {
+	border: 5px solid white;
+	width:  180px;
+	height: 180px;	
+}
+header h1{
+	letter-spacing: 10px;
+}
+header p{
+	color: grey;
+	letter-spacing: 5px;
+}
+nav a {
+	color: black;
+}
+
+.main-p {
+	font-size:  20px;
+}
+.lines { 
+	width:100%; 
+	text-align:center; 
+	border-bottom: 1px solid grey;
+	line-height:0.1em;
+	margin: 40px 0 20px;
+ } 
+.lines span {
+ background: white;
+  padding:0 100px;
+}
+.text-left {
+	text-indent: 40px;
+}
+.floating-left {
+	float: left;
+	text-indent: 0px;
+}
+.floating-left {
+	float: right;
+	text-indent: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    img {
+         width: 400px;
+    }
+}
+@media screen and (min-width: 700px) {
+    img {
+         width: 600px;
+    }
+}
+@media screen and (min-width: 900px) {
+    img {
+         width: 800px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    img {
+         width: 1100px;
+    }
+}
